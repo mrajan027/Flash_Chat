@@ -58,13 +58,15 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 AnimatedTextKit(
                   animatedTexts: [
                     TypewriterAnimatedText(
-                      'Flash Chat',
+                      'Insta Chat',
+                      speed: Duration(milliseconds: 60),
                       textStyle: TextStyle(
                         fontSize: 45.0,
                         fontWeight: FontWeight.w900,
                       ),
                     ),
                   ],
+                  isRepeatingAnimation: false,
                 ),
               ],
             ),
